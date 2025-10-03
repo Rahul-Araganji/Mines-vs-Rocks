@@ -14,7 +14,7 @@ The model was trained in **Google Colab**, and a **Flask web app** was built for
 ## 📘 Training Notebook
 
 You can see how the model was trained here:  
-[Mine_vs_Rock.ipynb](Mine_vs_Rock.ipynb)
+[Mine_vs_Rock.ipynb](Rock_vs_Mine_Prediction.ipynb)
 
 ---
 
