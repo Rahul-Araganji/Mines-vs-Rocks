@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock or Mine Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+   <h1>Rock or Mine Prediction</h1>
+   
+    <form action="/predict" method="post">
+    <label>Enter 60 numbers seperated by commas:</label><br><br>
+    <textarea name="features" rows="4" cols="80" placeholder="0.02,0.03,0.04,..."></textarea>
+    <br><br>
+    <button type="submit">Predict</button>
+    </form>
+
+    <h2>What do these numbers mean?</h2>
+
+    <p>
+        Provide 60 comma-separated numbers between 0 and 1.  
+        Each number is the energy of a sonar signal at a specific frequency band
+        (used to distinguish rocks from metal mines).
+    </p>
+
+</body>
+</html>
